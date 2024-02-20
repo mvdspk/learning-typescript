@@ -56,9 +56,32 @@ x = "hi" // no typecast error
 let numbers: number [] = [1,2,3,4,5];
 ```
 
+## Union
+
+variabe can hold either of 2 types
+
+```ts
+let id: string | number = 2
+```
 
 ## Tuple
 
 ```ts
 let person:[number, string, boolean] = [1, 'Pavan', true]
 ```
+
+
+## objects
+```ts
+
+// define class User
+type User = {
+id: number
+name: string
+```
+
+// create object
+
+let user: User = {
+id: 1,
+ name: 'pavan'
