@@ -79,9 +79,35 @@ type User = {
 id: number
 name: string
 ```
-
+```ts
 // create object
 
 let user: User = {
 id: 1,
  name: 'pavan'
+
+ ```
+
+## Functions
+
+Parameters by default have types
+to manage this rule see [Config > No Implicit ANy](https://github.com/mvdspk/learning-typescript/blob/main/config-file.md#noimplicitany)
+
+
+FUnction with parameters and return value
+```ts
+// parameter x is a number,
+// function returns number
+function addNum(x: number, y: number): number{
+return x+ y;
+}
+
+```
+
+Function with union parameter and void return value
+
+```ts
+function logMessage(message: number | string): void {
+ console.log(message);
+}
+```
