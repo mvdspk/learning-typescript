@@ -21,7 +21,9 @@ let id:number = 5;
 gets converted to js file eventhough there is error
 
 converts `let` in TYpeScript to `var` in Javascript ES5
-[more details] (https://github.com/mvdspk/learning-typescript/blob/main/config-file.md#target-property)
+
+[more details](https://github.com/mvdspk/learning-typescript/blob/main/config-file.md#target-property)
+
 need config file to map other requirements
 
 
