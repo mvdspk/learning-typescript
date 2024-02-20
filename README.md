@@ -41,3 +41,24 @@ index.ts:3:1 - error TS2322: Type 'string' is not assignable to type 'number'.
 
 Found 1 error in index.ts:3
 ```
+
+### Any
+
+```ts
+let x: any = 5;
+
+x = "hi" // no typecast error
+```
+
+## ARrays
+
+```ts
+let numbers: number [] = [1,2,3,4,5];
+```
+
+
+## Tuple
+
+```ts
+let person:[number, string, boolean] = [1, 'Pavan', true]
+```
