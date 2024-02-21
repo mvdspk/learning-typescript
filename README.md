@@ -69,25 +69,6 @@ let id: string | number = 2
 ```ts
 let person:[number, string, boolean] = [1, 'Pavan', true]
 ```
-
-
-## objects
-```ts
-
-// define class User
-type User = {
-id: number
-name: string
-```
-```ts
-// create object
-
-let user: User = {
-id: 1,
- name: 'pavan'
-
- ```
-
 ## Functions
 
 Parameters by default have types
@@ -111,3 +92,43 @@ function logMessage(message: number | string): void {
  console.log(message);
 }
 ```
+
+
+## Type ( similar to Class in Java)
+```ts
+
+// define class User
+type User = {
+id: number
+name: string
+```
+```ts
+// create object
+
+let user: User = {
+id: 1,
+ name: 'pavan'
+
+ ```
+
+### Type with Primitive
+can be used with primitives
+
+todo code snippet
+
+### Type with Union
+
+
+```ts
+type Point = number | string
+
+let p1 : Point = 1;
+```
+
+
+## Interface
+- cannot be used with Unions
+- cannot be used with primitives
+
+
+
